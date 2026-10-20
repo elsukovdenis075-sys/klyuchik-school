@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <script>
+    (function () {
+      var p = location.pathname;
+      if (p.length > 1 && !p.endsWith("/") && !/\.[a-z0-9]+$/i.test(p)) {
+        location.replace(p + "/" + location.search + location.hash);
+     }
+    })();
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content" />
+  <meta name="theme-color" content="#fff8f3" />
+  <meta name="color-scheme" content="light" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="description" content="Ключик — онлайн-школа Ирины Елсуковой. Подготовка к школе, чтение, дисграфия, 1–4 класс. Диагностика уровня 999 ₽. Нижний Новгород и онлайн." />
+  <meta name="keywords" content="подготовка к школе Нижний Новгород, репетитор 1 класс, дисграфия онлайн, чтение для детей, Ключик, Елсукова" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="ru_RU" />
+  <meta property="og:title" content="Ключик — онлайн-школа Ирины Елсуковой" />
+  <meta property="og:description" content="Подготовка к школе, чтение, дисграфия. Диагностика уровня — 999 ₽. Онлайн и очно в Н. Новгороде." />
+ <meta property="og:image" content="assets/photos/irina-portrait-orange.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <title>Ключик — онлайн-школа Ирины Елсуковой</title>
+  <link rel="icon" href="assets/icons/key.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script type="application/ld+json" id="schema-local-business">
+  {"@context":"https://schema.org","@type":"EducationalOrganization","name":"Ключик — онлайн-школа Ирины Елсуковой","description":"Подготовка к школе, чтение, дисграфия. Онлайн и очно в Нижнем Новгороде.","areaServed":"Нижний Новгород","url":"https://elsukovdenis075-sys.github.io/klyuchik-school/"}
+ </script>
+</head>
+<body class="theme-kids">
+  <div class="sky-deco" aria-hidden="true">
+    <span class="cloud cloud--1"></span>
+    <span class="cloud cloud--2"></span>
+    <span class="star star--1">★</span>
+    <span class="star star--2">★</span>
+    <span class="star star--3">✦</span>
+  </div>
+ <a class="skip-link" href="#main">К содержанию</a>
+
+  <header class="header">
+    <div class="wrap header__inner">
+      <a class="logo" href="#">
+        <span class="logo__key" aria-hidden="true">
+          <svg class="logo__key-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="48" height="48" aria-hidden="true">
+            <defs>
+              <linearGradient id="logoKeyGold" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#fff9e0"/>
+               <stop offset="28%" stop-color="#f5d76e"/>
+                <stop offset="55%" stop-color="#d4a017"/>
+                <stop offset="100%" stop-color="#9a7209"/>
+              </linearGradient>
+              <radialGradient id="logoKeyShine" cx="30%" cy="25%" r="55%">
+                <stop offset="0%" stop-color="#fff" stop-opacity="0.85"/>
+                <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+              </radialGradient>
+              <filter id="logoKeyGlow" x="-20%" y="-20%" width="140%" height="140%">
+                <feDropShadow dx="0" dy="1" stdDeviation="1.2" flood-color="#c9a227" flood-opacity="0.45"/>
+             </filter>
+            </defs>
+            <g filter="url(#logoKeyGlow)">
+              <circle cx="22" cy="22" r="14" fill="url(#logoKeyGold)" stroke="#8f6b12" stroke-width="1.6"/>
+              <circle cx="22" cy="22" r="14" fill="url(#logoKeyShine)"/>
+              <circle cx="22" cy="22" r="6" fill="#fffdf5" stroke="#b8922a" stroke-width="1.3"/>
+              <rect x="32" y="19" width="26" height="6" rx="2" fill="url(#logoKeyGold)" stroke="#8f6b12" stroke-width="1.3"/>
+              <rect x="50" y="16" width="4" height="12" rx="1.2" fill="url(#logoKeyGold)" stroke="#8f6b12" stroke-width="1"/>
+              <rect x="42" y="16" width="4" height="12" rx="1.2" fill="url(#logoKeyGold)" stroke="#8f6b12" stroke-width="1"/>
+              <rect x="34" y="16" width="4" height="12" rx="1.2" fill="url(#logoKeyGold)" stroke="#8f6b12" stroke-width="1"/>
+           </g>
+          </svg>
+        </span>
+        <span class="logo__text">Ключик</span>
+      </a>
+      <button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="visually-hidden">Меню</span>
+     </button>
+      <nav class="nav" id="site-nav" aria-label="Разделы">
+        <a href="#photos">Фото</a>
+        <a href="#directions">Направления</a>
+        <a href="#pricing">Тарифы</a>
+        <a href="#school">О школе</a>
+        <a href="#team">Педагоги</a>
+        <a href="#methods">Методики</a>
+        <a href="#faq">Вопросы</a>
+        <a href="#docs">Дипломы</a>
+        <span class="nav__social" aria-label="Соцсети">
+          <a class="nav__social-link" id="nav-telegram" href="https://t.me/klushikkk" target="_blank" rel="noopener">Telegram</a>
+          <a class="nav__social-link" id="nav-max" href="#" target="_blank" rel="noopener" hidden>Max</a>
+        </span>
+        <a class="nav__cta" href="#signup">Диагностика</a>
+      </nav>
+    </div>
+    <div class="nav-backdrop" id="nav-backdrop" hidden></div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="wrap hero__grid">
+        <div class="hero__text">
+          <div class="hero__badges">
+            <span class="pill pill--mint">5–11 лет</span>
+            <span class="pill pill--sun">Онлайн и Н. Новгород</span>
+            <span class="pill pill--coral" id="hero-offer-pill">Диагностика — 999 ₽</span>
+          </div>
+         <p class="eyebrow" id="hero-eyebrow">Онлайн-школа «Ключик»</p>
+          <h1 id="hero-title">Найдём ключик к сердцу и уму Вашего ребёнка</h1>
+          <p class="hero__promise" id="hero-lead">
+            Ирина Васильевна Елсукова сама ведёт занятия: подготовка к школе, чтение, почерк, 1–4 класс — в игре, с обратной связью родителям. Рядом команда педагогов — один стандарт.
+          </p>
+          <div class="hero__stats" id="hero-trust-stats" aria-label="Коротко о школе"></div>
+          <button type="button" class="hero__voice-btn hero__voice-btn--desktop" id="hero-voice-btn" hidden>
+            <span aria-hidden="true">🎧</span> Послушать Ирину
+          </button>
+         <video id="hero-voice-clip" class="visually-hidden" playsinline preload="metadata"></video>
+          <div class="hero__actions">
+            <a class="btn btn--primary btn--shine" id="btn-hero-signup" href="#signup">Запись на диагностику — 999 ₽</a>
+            <a class="btn btn--ghost" href="#pricing">Смотреть тарифы</a>
+          </div>
+          <p class="hero__socials" aria-label="Наши каналы">
+            Каналы:
+            <a id="btn-telegram" href="https://t.me/klushikkk" target="_blank" rel="noopener">Telegram</a>
+            <span id="hero-max-sep" aria-hidden="true" hidden>·</span>
+            <a id="btn-max" href="#" target="_blank" rel="noopener" hidden>Max</a>
+          </p>
+          <p class="hero__micro">Сначала диагностика уровня — потом группа или индивидуально.</p>
+          <p class="hero__city" id="hero-city"></p>
+        </div>
+        <div class="hero__media">
+          <div class="hero__frame">
+            <video id="hero-video" class="hero__video" muted loop playsinline poster="assets/photos/irina-portrait-orange.jpg" hidden></video>
+           <img id="hero-photo" src="assets/photos/irina-portrait-orange.jpg" alt="Ирина Васильевна Елсукова" width="480" height="640" decoding="async" onerror="this.onerror=null;this.src='assets/placeholder.svg';" />
+            <span class="hero__sticker hero__sticker--wiggle">Основатель «Ключика»</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery-hero" id="photos">
+      <div class="wrap">
+        <h2 class="title-fun gallery-hero__title">Фото с занятий</h2>
+        <p class="gallery-hero__lead gallery-hero__hint">
+          <strong class="gallery-hero__hint-strong">Нажмите лепесток или фото ниже</strong>
+          <span class="gallery-hero__hint-sub"> — откроется на весь экран</span>
+        </p>
+        <div class="daisy-gallery" id="photo-gallery" aria-label="Галерея-ромашка"></div>
+        <div class="photo-thumbs" id="photo-thumbs" aria-label="Фото с занятий"></div>
+      </div>
+    </section>
+
+    <section class="launch" id="launch">
+      <div class="wrap launch__box">
+        <p class="promo-chip" id="promo-chip" hidden>Скидка октября</p>
+        <h2 class="title-fun" id="launch-title">Подготовка к школе · 5–7 лет</h2>
+        <ul class="launch__meta" id="launch-meta"></ul>
+        <p class="launch__urgency" id="launch-urgency">Мест в группе немного — лучше занять место до старта.</p>
+        <a class="btn btn--primary btn--shine" id="btn-launch" href="#signup">Запись на диагностику</a>
+      </div>
+    </section>
+
+    <section class="pain pain--scene" id="for-parents">
+      <div class="wrap pain__wrap">
+        <h2 class="title-fun">Знакомо?</h2>
+        <p class="section-lead pain__lead">Так пишут родители в канале «Ключик». Мы знаем, как помочь — без крика и давления.</p>
+        <div class="pain__mosaic">
+          <article class="bubble-card pain-card pain-card--1 reveal-on-scroll">
+            <span class="bubble-card__icon" aria-hidden="true">😰</span>
+            <h3>Боится школы</h3>
+            <p>Страшится 1 класса, тревожится перед школой и новыми заданиями.</p>
+          </article>
+         <article class="bubble-card pain-card pain-card--2 reveal-on-scroll">
+            <span class="bubble-card__icon" aria-hidden="true">😢</span>
+            <h3>Домашка со слезами</h3>
+            <p>Чтение или письмо превращаются в борьбу каждый вечер.</p>
+          </article>
+          <div class="pain__hub reveal-on-scroll">
+            <span class="pain__hub-icon" aria-hidden="true">🔑</span>
+            <p class="pain__hub-sub">Вы не одни</p>
+          </div>
+          <article class="bubble-card pain-card pain-card--3 reveal-on-scroll">
+           <span class="bubble-card__icon" aria-hidden="true">✏️</span>
+            <h3>Ошибки в тетради</h3>
+            <p>Учитель недоволен, а ребёнок уже опустил руки.</p>
+          </article>
+          <article class="bubble-card pain-card pain-card--4 reveal-on-scroll">
+            <span class="bubble-card__icon" aria-hidden="true">🌟</span>
+            <h3>Умный, но быстро устаёт</h3>
+            <p>Соображает живо, а почерк ещё нужно поставить.</p>
+          </article>
+        </div>
+       <p class="pain__cta">
+          <a class="btn btn--primary" href="#signup">Запись на диагностику</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="trial-steps trial-steps--journey" id="trial-steps">
+      <div class="wrap">
+        <h2 class="title-fun">Как записаться</h2>
+        <p class="section-lead section-lead--tight">Четыре шага — как у крупных школ, только проще и с живым педагогом.</p>
+       <ol class="steps steps--staircase steps--simple">
+          <li class="step step--stair reveal-on-scroll">
+            <span class="step__num">1</span>
+            <h3>Заявка</h3>
+            <p>Оставьте форму ниже или напишите в Telegram / позвоните — как удобнее.</p>
+          </li>
+          <li class="step step--stair reveal-on-scroll">
+            <span class="step__num">2</span>
+            <h3>Короткий созвон</h3>
+            <p>Уточним возраст, запрос и формат: онлайн или очно в Н. Новгороде.</p>
+         </li>
+          <li class="step step--stair reveal-on-scroll">
+            <span class="step__num">3</span>
+            <h3>Диагностика</h3>
+            <p>Смотрим уровень по Вашему запросу — понятный вывод родителю.</p>
+          </li>
+          <li class="step step--stair reveal-on-scroll">
+            <span class="step__num">4</span>
+            <h3>План</h3>
+            <p>Рекомендации и расписание: группа или индивидуально — только если Вам подошло.</p>
+         </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="info-block" id="lesson">
+      <div class="wrap">
+        <h2 class="title-fun">Как проходит занятие</h2>
+        <p class="section-lead section-lead--tight">Обычно 40–50 минут. Без зубрёжки «для галочки» — с обратной связью Вам.</p>
+        <ol class="lesson-flow">
+          <li class="reveal-on-scroll"><strong>5 мин</strong> — контакт и настрой: ребёнок включается без страха.</li>
+          <li class="reveal-on-scroll"><strong>25–30 мин</strong> — основная работа по запросу: игра, задания, движение.</li>
+          <li class="reveal-on-scroll"><strong>5–10 мин</strong> — Вам коротко: что получилось, что дома на 10–15 минут.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="info-block info-block--mint" id="results">
+      <div class="wrap">
+        <h2 class="title-fun">Чего ждать по срокам</h2>
+        <p class="section-lead section-lead--tight">Честно: темп у всех разный. Ориентиры при регулярных занятиях.</p>
+        <div class="results-grid">
+          <article class="result-card reveal-on-scroll">
+            <h3>Через месяц</h3>
+            <p>Ребёнок привыкает к формату, меньше сопротивления «сидеть за заданием». Вам понятнее, где пробелы и что уже хорошо.</p>
+          </article>
+          <article class="result-card reveal-on-scroll">
+            <h3>Через 3 месяца</h3>
+            <p>Заметнее навык: чтение/письмо/готовность к школе — по тому плану, что зафиксировали на диагностике. Без обещания «отличник за два урока».</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="info-block" id="fit">
+      <div class="wrap">
+        <h2 class="title-fun">Кому подойдём — и кому нет</h2>
+        <div class="fit-grid">
+          <article class="fit-card fit-card--yes reveal-on-scroll">
+            <h3>Подойдём, если</h3>
+            <ul>
+              <li>Ребёнку 5–11 лет, запрос: к школе, чтение, почерк, 1–4 класс</li>
+              <li>Нужен живой педагог, а не «видеокурс сам с собой»</li>
+              <li>Готовы к коротким домашним закреплениям 10–15 минут</li>
+              <li>Онлайн из любого города или очно в Приокском районе НН</li>
+            </ul>
+          </article>
+          <article class="fit-card fit-card--no reveal-on-scroll">
+            <h3>Пока не подойдём, если</h3>
+            <ul>
+              <li>Нужен узкий логопед/дефектолог по тяжёлой клинической картине — направим к специалисту</li>
+              <li>Ожидаете «выучит всё за одну неделю без участия семьи»</li>
+              <li>Нужна подготовка к ЕГЭ/ОГЭ или занятия для подростков 14+</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="info-block info-block--sun" id="parent-home">
+      <div class="wrap">
+        <h2 class="title-fun">Что делает родитель между занятиями</h2>
+        <p class="section-lead section-lead--tight">10–15 минут дома — и навык закрепляется. Без этого прогресс медленнее, даже при сильном педагоге.</p>
+        <ul class="parent-home-list">
+          <li class="reveal-on-scroll"><strong>Повторить игру/упражнение</strong>, которое дали после урока — коротко, в хорошем настроении.</li>
+          <li class="reveal-on-scroll"><strong>Не превращать дом в вторую школу</strong>: лучше 12 минут с удовольствием, чем час со слезами.</li>
+          <li class="reveal-on-scroll"><strong>Написать педагогу</strong>, если что-то не пошло: скорректируем темп на следующем занятии.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="info-block" id="tech">
+      <div class="wrap">
+        <h2 class="title-fun">Что нужно для онлайн</h2>
+        <ul class="tech-list">
+          <li>Компьютер, ноутбук или планшет с камерой и микрофоном</li>
+          <li>Стабильный интернет (лучше Wi‑Fi, не «один делённый на весь дом»)</li>
+          <li>Тихое место на 40–50 минут и возможность показать тетрадь/экран</li>
+          <li>Zoom или аналог — ссылку пришлём перед занятием</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="programs programs--path" id="directions">
+      <div class="wrap">
+        <h2 class="title-fun">Направления</h2>
+        <p class="section-lead section-lead--tight">Выберите запрос — на диагностике подскажем формат: группа или индивидуально.</p>
+        <div id="programs-grid"></div>
+     </div>
+    </section>
+
+    <section class="pricing pricing--tickets" id="pricing">
+      <div class="wrap">
+        <h2 class="title-fun">Тарифы</h2>
+        <p class="promo-banner" id="promo-banner" hidden></p>
+        <div class="pricing__grid" id="pricing-grid"></div>
+        <div class="price-compare" id="price-compare"></div>
+        <div class="pricing__cta">
+          <a class="btn btn--primary btn--shine btn--lg" id="btn-pricing-signup" href="#signup">Запись на диагностику</a>
+          <p class="reviews__hint" id="pricing-note" hidden></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="info-block info-block--mint" id="magnet">
+      <div class="wrap magnet__wrap">
+        <h2 class="title-fun">Бесплатный чек-лист</h2>
+        <p class="section-lead section-lead--tight">«Готов ли ребёнок к 1 классу» — 1 страница: на что смотреть дома до диагностики.</p>
+        <form class="magnet-form" id="magnet-form">
+          <label>
+            <span>Имя</span>
+            <input type="text" name="parent" required autocomplete="name" placeholder="Как к Вам обращаться" />
+          </label>
+          <label>
+            <span>Телефон или Telegram</span>
+            <input type="text" name="contact" required autocomplete="tel" placeholder="+7 … или @username" />
+          </label>
+          <label class="signup-consent">
+            <input type="checkbox" name="consent" required />
+            <span>Согласен(на) с <a href="privacy.html" target="_blank" rel="noopener">политикой ПДн</a> и <a href="consent.html" target="_blank" rel="noopener">обработкой данных</a></span>
+          </label>
+          <button type="submit" class="btn btn--primary">Получить чек-лист</button>
+          <p class="signup-form__success" id="magnet-success" hidden>Спасибо! Напишем в Telegram и пришлём чек-лист.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="info-block" id="referral">
+      <div class="wrap">
+        <h2 class="title-fun">Приведите друга</h2>
+        <p class="section-lead section-lead--tight" id="referral-text">Вам и другу — скидка на диагностику.</p>
+        <p class="referral__actions">
+          <a class="btn btn--primary" id="btn-referral-tg" href="https://t.me/klushikkk" target="_blank" rel="noopener">Поделиться каналом</a>
+          <button type="button" class="btn btn--ghost" id="btn-referral-copy">Скопировать ссылку на сайт</button>
+        </p>
+        <p class="reviews__hint" id="referral-copied" hidden>Ссылка скопирована</p>
+      </div>
+    </section>
+
+    <section class="info-block info-block--sun" id="place">
+      <div class="wrap">
+        <h2 class="title-fun">Очно в Н. Новгороде</h2>
+        <p class="section-lead section-lead--tight">Приокский район. Точный адрес уточним при записи — чтобы не светить домашний/кабинетный адрес всему интернету.</p>
+        <p>
+          <a class="btn btn--ghost" id="btn-maps" href="https://yandex.ru/maps/47/nizhny-novgorod/?text=Приокский%20район" target="_blank" rel="noopener">Открыть район на карте</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="signup" id="signup">
+      <div class="wrap signup__grid">
+        <div class="signup__box signup__box--offer">
+          <span class="signup__badge" id="signup-badge">🔑 Диагностика</span>
+          <h2 class="title-fun">Запись на диагностику</h2>
+          <p id="signup-lead">Оставьте заявку — свяжемся в ближайшее время. Или напишите / позвоните.</p>
+          <form class="signup-form" id="signup-form" novalidate>
+            <label>
+              <span>Имя родителя</span>
+              <input type="text" name="parent" required autocomplete="name" placeholder="Как к Вам обращаться" />
+            </label>
+            <label>
+              <span>Телефон или Telegram</span>
+              <input type="text" name="contact" required autocomplete="tel" placeholder="+7 … или @username" />
+            </label>
+            <label>
+              <span>Возраст ребёнка</span>
+              <input type="text" name="age" required placeholder="Например, 6 лет" />
+            </label>
+            <label>
+              <span>Диагностика по направлению</span>
+              <select name="topic" required>
+                <option value="">Выберите…</option>
+                <option>Подготовка к школе</option>
+                <option>Чтение</option>
+                <option>Дисграфия / почерк</option>
+                <option>Репетитор 1–4 класс</option>
+                <option>Пока не определились</option>
+              </select>
+            </label>
+            <label>
+              <span>Формат</span>
+              <select name="format" required>
+                <option value="">Выберите…</option>
+                <option>Онлайн</option>
+                <option>Очно (Н. Новгород)</option>
+                <option>Пока не знаю</option>
+              </select>
+            </label>
+            <label class="signup-consent">
+              <input type="checkbox" name="consent" required />
+              <span>Согласен(на) с <a href="oferta.html" target="_blank" rel="noopener">офертой</a>, <a href="privacy.html" target="_blank" rel="noopener">политикой ПДн</a> и <a href="consent.html" target="_blank" rel="noopener">обработкой данных</a></span>
+            </label>
+            <button type="submit" class="btn btn--primary btn--lg" id="signup-submit-btn">Отправить заявку</button>
+            <p class="signup-form__success" id="signup-success" hidden role="status">
+              Спасибо! Заявка принята — свяжемся с вами в ближайшее время.
+            </p>
+            <p class="signup-form__note" id="form-note" hidden></p>
+          </form>
+          <iframe name="google-form-target" id="google-form-target" class="visually-hidden" title="Отправка заявки"></iframe>
+          <div class="signup__actions">
+            <a class="btn btn--ghost btn--lg" id="btn-google-form" href="#" target="_blank" rel="noopener noreferrer" hidden>Открыть форму</a>
+            <a class="btn btn--ghost btn--lg" id="btn-contact" href="https://t.me/irina_elsukova_0" target="_blank" rel="noopener">Написать в Telegram</a>
+            <a class="btn btn--ghost btn--lg" id="btn-phone" href="tel:+79030436763">Позвонить</a>
+          </div>
+          <p class="signup__phone" id="signup-phone"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews reviews--wall" id="reviews">
+      <div class="wrap">
+        <h2 class="title-fun">Отзывы</h2>
+        <p class="section-lead section-lead--tight" id="reviews-intro">Коротко о результате — и слова родителей.</p>
+        <div class="reviews-showcase" id="reviews-showcase"></div>
+        <p class="reviews__hint reviews__footer">
+          <a href="https://t.me/klushikkk" id="reviews-channel-link" target="_blank" rel="noopener">Все отзывы в канале →</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="faq" id="faq">
+      <div class="wrap faq__wrap">
+        <h2 class="title-fun">Вопросы</h2>
+        <div class="faq__list" id="faq-list"></div>
+      </div>
+    </section>
+
+    <section class="about about--spokes" id="school">
+     <div class="wrap">
+        <div class="about__spoke-head">
+          <h2 class="title-fun about__page-title">О школе</h2>
+          <div class="about__spoke-hub reveal-on-scroll">
+            <span class="about__spoke-hub-icon" aria-hidden="true">🔑</span>
+            <p class="about__spoke-hub-label">Ключик</p>
+          </div>
+        </div>
+        <div class="about__spoke-arrows" aria-hidden="true">
+          <div class="about__spoke-arrow"><span>↓</span></div>
+         <div class="about__spoke-arrow"><span>↓</span></div>
+          <div class="about__spoke-arrow"><span>↓</span></div>
+        </div>
+        <div class="about__mosaic about__mosaic--three">
+          <div class="about__tile about__tile--intro reveal-on-scroll">
+            <h3 class="about__tile-heading">Онлайн-школа «Ключик»</h3>
+            <p id="about-text">
+              <strong>Ключик</strong> — онлайн-школа <strong>Ирины Васильевны Елсуковой</strong>.
+              Подготовка к школе, чтение, почерк, 1–4 класс — в игре и с уважением к темпу ребёнка.
+            </p>
+           <p class="about__intro-extra">
+              В канале — живые отзывы и полезные материалы; занятия онлайн по России и очно в Приокском районе Н. Новгорода.
+            </p>
+            <a class="btn btn--ghost" id="btn-channel" href="https://t.me/klushikkk" target="_blank" rel="noopener">Полезные посты в канале</a>
+          </div>
+
+          <div class="about__tile about__quals reveal-on-scroll">
+            <h3 class="about__quals-title">Квалификация и опыт</h3>
+            <ul class="quals-list" id="teacher-quals">
+              <li>Выпускница НГПУ · педагог дополнительного образования</li>
+             <li>Многолетний стаж: вожатая, учитель, организатор детских коллективов, репетитор в школе</li>
+              <li>Направления — подготовка к школе, чтение, дисграфия, поддержка 1–4 класса</li>
+              <li>Методики — Зайцев, Пятибратова, Булах</li>
+              <li>Нейропедагогика, кинезиомячи, встречи с психологом в прямом эфире</li>
+            </ul>
+          </div>
+
+          <div class="about__tile about__format reveal-on-scroll">
+            <h3 class="about__format-title">Как устроены занятия</h3>
+            <ul class="format-chips">
+             <li>Группы до 6 детей</li>
+              <li>Или индивидуально</li>
+              <li>Онлайн по России</li>
+              <li>Очно · Приокский район</li>
+            </ul>
+            <p class="about__principle">
+              <strong>Главное:</strong> сначала понять и поддержать ребёнка — потом учить. Без крика, слёз и зубрёжки «для галочки».
+            </p>
+          </div>
+        </div>
+      </div>
+   </section>
+
+    <section class="team" id="team">
+      <div class="wrap">
+        <h2 class="title-fun">Команда</h2>
+        <p class="section-lead section-lead--tight">Ирина Васильевна ведёт занятия сама. Слоты педагогов готовы — заполним профили.</p>
+        <div class="team__grid" id="team-grid"></div>
+      </div>
+    </section>
+
+    <section class="methods methods--page" id="methods">
+      <div class="wrap">
+        <h2 class="title-fun">Методики — простыми словами</h2>
+        <p class="section-lead section-lead--tight">Что это и зачем родителю с ребёнком — коротко, без академического тумана.</p>
+        <div class="methods__grid">
+          <article class="method-card">
+            <h4>Кубики Зайцева</h4>
+            <p>Чтение через склады: не «б-а — ба», а сразу кубиками-слогами. Ребёнок собирает слова как конструктор и слышит ритм речи. Меньше слёз над букварём — больше игры, из которой получается настоящее чтение.</p>
+          </article>
+          <article class="method-card">
+            <h4>Методика Пятибратовой</h4>
+            <p>Для малышей 2–7 лет: речь, слух и интерес к книге через игру и движение. Готовит почву к чтению без давления «уже надо уметь». Нужна, когда ребёнок ещё не готов сидеть за прописями, но уже тянется к словам и звукам.</p>
+          </article>
+          <article class="method-card">
+            <h4>Подход Булах</h4>
+            <p>Учить так, чтобы ребёнок понимал, а не только повторял за педагогом. Акцент на внимании и мышлении на занятии — не на зубрёжке «для галочки». Родителю: меньше «выучил — забыл»; ребёнку — ощущение «я сам разобрался».</p>
+          </article>
+          <article class="method-card">
+            <h4>Нейропедагогика</h4>
+            <p>Про то, как мозг ребёнка включается в учёбу: внимание, память, темп. Педагог подбирает задания под готовность, а не «по учебнику вслепую». Помогает, когда ребёнок соображает живо, но быстро устаёт, отвлекается или «не слышит» инструкцию.</p>
+          </article>
+          <article class="method-card">
+            <h4>Кинезиомячи</h4>
+            <p>Мячи и мешочки в упражнениях на координацию и связь «рука — голова». Через движение проще собрать внимание перед буквами и письмом. Занятие не только за столом: тело помогает учиться, а не мешает.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip" id="docs">
+      <div class="wrap">
+        <h2 class="title-fun">Дипломы и сертификаты</h2>
+        <p class="section-lead section-lead--tight trust-strip__hint">
+          <strong>Нажмите на кружок</strong> — откроется полный скан документа.
+        </p>
+        <div class="keyring" id="credentials-grid" aria-label="Документы Ирины"></div>
+      </div>
+    </section>
+
+    <section class="video-block video-block--compact" id="video">
+      <div class="wrap">
+        <h2 class="title-fun">Видео о «Ключике»</h2>
+        <div class="video-block__grid" id="video-host"></div>
+      </div>
+    </section>
+
+    <section class="info-block" id="feedback">
+      <div class="wrap">
+        <h2 class="title-fun">Помогите нам стать лучше</h2>
+        <p class="section-lead section-lead--tight">Короткая оценка — чтобы школа росла вместе с вами. NPS: насколько вероятно порекомендуете «Ключик» другу (0–10).</p>
+        <form class="nps-form" id="nps-form">
+          <div class="nps-form__scores" role="group" aria-label="Оценка от 0 до 10">
+            <button type="button" class="nps-score" data-score="0">0</button>
+            <button type="button" class="nps-score" data-score="1">1</button>
+            <button type="button" class="nps-score" data-score="2">2</button>
+            <button type="button" class="nps-score" data-score="3">3</button>
+            <button type="button" class="nps-score" data-score="4">4</button>
+            <button type="button" class="nps-score" data-score="5">5</button>
+            <button type="button" class="nps-score" data-score="6">6</button>
+            <button type="button" class="nps-score" data-score="7">7</button>
+            <button type="button" class="nps-score" data-score="8">8</button>
+            <button type="button" class="nps-score" data-score="9">9</button>
+            <button type="button" class="nps-score" data-score="10">10</button>
+          </div>
+          <input type="hidden" name="score" id="nps-score-input" value="" />
+          <label>
+            <span>Что улучшить? (необязательно)</span>
+            <textarea name="comment" rows="3" placeholder="Что понравилось / чего не хватило"></textarea>
+          </label>
+          <label>
+            <span>Telegram или телефон (необязательно)</span>
+            <input type="text" name="contact" autocomplete="tel" placeholder="@username или +7…" />
+          </label>
+          <button type="submit" class="btn btn--primary" id="nps-submit" disabled>Отправить отзыв</button>
+          <p class="signup-form__success" id="nps-success" hidden>Спасибо — это помогает школе стать лучше.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+   <div class="daisy-lightbox" id="daisy-lightbox" hidden role="dialog" aria-modal="true" aria-labelledby="daisy-lightbox-caption">
+    <button type="button" class="daisy-lightbox__backdrop" id="daisy-lightbox-backdrop" aria-label="Закрыть"></button>
+    <div class="daisy-lightbox__panel">
+      <button type="button" class="daisy-lightbox__close" id="daisy-lightbox-close" aria-label="Закрыть">×</button>
+      <figure class="daisy-lightbox__figure">
+        <img id="daisy-lightbox-img" src="" alt="" decoding="async" />
+        <figcaption id="daisy-lightbox-caption"></figcaption>
+      </figure>
+      <a class="daisy-lightbox__tg btn btn--ghost" id="daisy-lightbox-tg" href="#" target="_blank" rel="noopener" hidden>Открыть пост в Telegram</a>
+    </div>
+  </div>
+
+  <aside class="sticky-cta" id="sticky-cta" aria-label="Быстрая запись">
+    <a class="sticky-cta__mini" id="sticky-tg" href="https://t.me/irina_elsukova_0" target="_blank" rel="noopener" aria-label="Telegram">TG</a>
+    <a class="btn btn--primary btn--sm sticky-cta__btn" id="sticky-signup" href="#signup">Диагностика</a>
+  </aside>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p>© <span id="year"></span> Ключик · <span id="footer-name">Ирина Васильевна Елсукова</span></p>
+      <p class="footer__legal" id="footer-legal">Реквизиты появятся после карточки предприятия</p>
+      <p class="footer__links">
+        <a href="oferta.html">Оферта</a>
+        · <a href="privacy.html">Политика ПДн</a>
+        · <a href="consent.html">Согласие на обработку</a>
+      </p>
+      <p class="footer__socials">
+        <a id="footer-channel" href="https://t.me/klushikkk">Telegram</a>
+        <span id="footer-max-sep" aria-hidden="true" hidden>·</span>
+        <a id="footer-max" href="#" target="_blank" rel="noopener" hidden>Max</a>
+        <span aria-hidden="true">·</span>
+        <a id="footer-site" href="#">Сайт</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="site.js"></script>
+</body>
+</html>
