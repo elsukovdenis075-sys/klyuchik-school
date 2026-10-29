@@ -1,0 +1,8 @@
+# Статический сайт — без сборки
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"

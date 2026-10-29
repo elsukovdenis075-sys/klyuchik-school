@@ -1,0 +1,319 @@
+{
+  "teacher": {
+    "name": "Ирина Васильевна Елсукова",
+    "title": "Ирина Васильевна Елсукова"
+  },
+  "brand": {
+    "channelName": "Ключик",
+    "tagline": "Найдём ключик к сердцу и уму Вашего ребёнка"
+  },
+  "team": [
+    {
+      "name": "Ирина Васильевна Елсукова",
+      "role": "Основатель школы · ведёт занятия",
+      "photo": "assets/photos/irina-portrait-orange.jpg",
+      "focus": "Подготовка к школе, чтение, дисграфия, 1–4 класс",
+      "badge": "Основатель",
+      "founder": true
+    },
+    {
+      "name": "Педагог команды",
+      "role": "Слот 1 · скоро",
+      "photo": "",
+      "focus": "Заполним: имя, фото, направление, дипломы",
+      "badge": "Слот",
+      "open": true,
+      "slot": 1
+    },
+    {
+      "name": "Педагог команды",
+      "role": "Слот 2 · скоро",
+      "photo": "",
+      "focus": "Заполним: имя, фото, направление, дипломы",
+      "badge": "Слот",
+      "open": true,
+      "slot": 2
+    },
+    {
+      "name": "Педагог команды",
+      "role": "Слот 3 · скоро",
+      "photo": "",
+      "focus": "Заполним: имя, фото, направление, дипломы",
+      "badge": "Слот",
+      "open": true,
+      "slot": 3
+    }
+  ],
+  "programs": [
+    {
+      "icon": "🎒",
+      "title": "Подготовка к школе",
+      "age": "5–7 лет",
+      "lead": "Ирина Васильевна Елсукова",
+      "founder": true,
+      "format": "Группа до 6 чел., 2 раза в неделю, ~6 недель. Онлайн или очно (Н. Новгород).",
+      "when": "Перед 1 классом: трудно усидеть, слабое внимание; буквы знает, но к школе пока не готов.",
+      "do": "Внимание, рука, слух, игры — учимся учиться."
+    },
+    {
+      "icon": "📖",
+      "title": "Осознанное чтение",
+      "age": "7–10 лет",
+      "lead": "Ирина Васильевна Елсукова",
+      "founder": true,
+      "format": "Индивидуально (группа по запросу). Онлайн или очно.",
+      "when": "Читает, но плохо понимает текст; путает слова; чтение даётся тяжело.",
+      "do": "Фонематический слух и понимание текста."
+    },
+    {
+      "icon": "✍️",
+      "title": "Дисграфия и почерк",
+      "age": "8–11 лет",
+      "lead": "Ирина Васильевна Елсукова",
+      "founder": true,
+      "format": "Индивидуально. Онлайн или очно.",
+      "when": "Трудности с письмом: много ошибок, неразборчивый или корявый почерк.",
+      "do": "Разбор ошибок и тренировка руки."
+    },
+    {
+      "icon": "⭐",
+      "title": "Репетитор 1–4 класс",
+      "age": "1–4 класс",
+      "lead": "Ирина Васильевна Елсукова",
+      "founder": true,
+      "format": "Индивидуально. Онлайн или очно.",
+      "when": "Возникают трудности с чтением, письмом или математикой.",
+      "do": "Подтягиваем школьную программу."
+    },
+    {
+      "icon": "🎙️",
+      "title": "Школа оратора · радиоспектакли",
+      "age": "6–12 лет",
+      "lead": "Педагог команды",
+      "leadRole": "Направление в подготовке",
+      "coming": true,
+      "format": "Скоро: группа и индивидуально. Онлайн.",
+      "when": "Хочется уверенно говорить, играть голосом, участвовать в спектаклях.",
+      "do": "Дикция, интонация, радиоспектакли, запись сказок голосом «на ночь»."
+    },
+    {
+      "icon": "🔑",
+      "title": "Направление педагога",
+      "age": "уточним",
+      "lead": "Педагог команды",
+      "leadRole": "Слот для педагога",
+      "coming": true,
+      "format": "Скоро — после подключения педагога команды.",
+      "when": "Под запрос семьи и специализацию педагога.",
+      "do": "Карточку заполним, когда педагог присоединится к «Ключику»."
+    }
+  ],
+  "contacts": {
+    "telegramChannel": "https://t.me/klushikkk",
+    "telegramContact": "@irina_elsukova_0",
+    "telegramContactDenis": "@Denieis_1",
+    "maxChannel": "https://max.ru/channel_klyuchik_nn",
+    "phone": "+7 (903) 043-67-63",
+    "phoneTel": "+79030436763",
+    "city": "Нижний Новгород",
+    "district": "Приокский район",
+    "address": "ул. 40 лет Победы, д. 10",
+    "timezone": "МСК"
+  },
+  "site": {
+    "url": "https://klyuchik-school.vercel.app/",
+    "customDomain": "",
+    "customDomainNote": "После покупки домена: впишите https://www.ваш-домен.ru/ в customDomain и url; добавьте sites/klyuchik/CNAME — см. DOMAIN.md"
+  },
+  "pricing": {
+    "diagnosticLesson": "1 199 ₽",
+    "diagnosticPromo": "999 ₽",
+    "individualPerHour": "1 199 ₽ / час",
+    "individualPromo": "999 ₽ / час",
+    "groupPerMonth": "5 999 ₽ / мес",
+    "groupPromo": "4 999 ₽ / мес",
+    "promoLabel": "Скидка октября",
+    "promoUntil": "2026-10-31",
+    "note": "В октябре — цены со скидкой. С 1 ноября действуют обычные тарифы."
+  },
+  "legal": {
+    "entityName": "REPLACE_ENTITY",
+    "inn": "REPLACE_INN",
+    "ogrnip": "REPLACE_OGRNIP",
+    "address": "REPLACE_ADDRESS",
+    "email": "REPLACE_EMAIL"
+  },
+  "referral": {
+    "bonusSelf": "500 ₽",
+    "bonusFriend": "500 ₽",
+    "text": "Приведите друга: Вам и другу по 500 ₽ скидки на диагностику."
+  },
+  "trust": [
+    {
+      "value": "до 6",
+      "label": "детей в группе"
+    },
+    {
+      "value": "999 ₽",
+      "label": "диагностика · октябрь"
+    },
+    {
+      "value": "Онлайн",
+      "label": "· Н. Новгород"
+    },
+    {
+      "value": "5–11",
+      "label": "лет"
+    }
+  ],
+  "launch": {
+    "product": "Подготовка к школе",
+    "age": "5–7 лет",
+    "startDate": "ноябрь 2026",
+    "spots": 6,
+    "spotsLeft": 4,
+    "durationWeeks": 6,
+    "format": "группа «К школе»"
+  },
+  "credentials": [
+    {
+      "file": "assets/credentials/diploma-ngpu-filologiya-1999.jpg",
+      "title": "Диплом НГПУ",
+      "caption": "Учитель русского языка и литературы · филология · 1999"
+    },
+    {
+      "file": "assets/credentials/cert-zaitsev-pyatibratova-2019.jpg",
+      "title": "Кубики Зайцева",
+      "caption": "Чтение 2–7 лет · методика Зайцева и Пятибратовой · 2019"
+    },
+    {
+      "file": "assets/credentials/cert-kineziomyachi-72h-2025.jpg",
+      "title": "Кинезиомячи",
+      "caption": "72 ч · нейропедагогика, мячи и мешочки в работе педагога · 2025"
+    },
+    {
+      "file": "assets/credentials/cert-neuropedagogy-72h-2025.jpg",
+      "title": "Нейропедагогика",
+      "caption": "72 ч · нейропедагогика в работе с детьми · 2025"
+    },
+    {
+      "file": "assets/credentials/cert-bulakh-mozgovaya-revolyuciya-2024.jpg",
+      "title": "Булах · мозговая революция",
+      "caption": "Вебинар «Мозговая революция» · новые подходы к обучению · 2024"
+    },
+    {
+      "file": "assets/credentials/cert-neuro-school-2025.jpg",
+      "title": "Готовность к школе",
+      "caption": "Диагностика готовности к школе · нейропсихология · 2025"
+    },
+    {
+      "file": "assets/credentials/cert-eco-preschool-2022.jpg",
+      "title": "Дошкольники",
+      "caption": "Познавательное развитие дошкольников · 36 ч · Москва · 2022"
+    },
+    {
+      "file": "assets/credentials/cert-first-aid-2026.jpg",
+      "title": "Первая помощь",
+      "caption": "Обучение навыкам первой помощи · 16 ч · Н. Новгород · 2026"
+    },
+    {
+      "file": "assets/credentials/cert-povyshenie-kvalifikacii-2026.jpg",
+      "title": "Повышение квалификации",
+      "caption": "Удостоверение · Нижний Новгород · 25.02.2026"
+    },
+    {
+      "file": "assets/credentials/cert-gratitude-crtdiyu-2025.jpg",
+      "title": "Благодарность ЦРТДиЮ",
+      "caption": "За работу педагогом доп. образования · Н. Новгород · 2025"
+    }
+  ],
+  "media": {
+    "heroPhoto": "assets/photos/irina-portrait-orange.jpg",
+    "heroVideo": "assets/media/video-mama.mp4",
+    "heroVoiceClip": "assets/media/video-mama.mp4",
+    "heroVoiceMaxSeconds": 25,
+    "channel": {
+      "reviews": [
+        66,
+        74
+      ],
+      "photos": [
+        {
+          "file": "assets/photos/lesson-whiteboard.jpg",
+          "alt": "Занятие у магнитной доски"
+        },
+        {
+          "file": "assets/photos/lesson-boy-whiteboard.jpg",
+          "alt": "Примеры и счёт у доски"
+        },
+        {
+          "file": "assets/photos/lesson-girl-math.jpg",
+          "alt": "Математика в игровой форме"
+        },
+        {
+          "file": "assets/photos/play-rainbow-blocks.jpg",
+          "alt": "Развивающие игры: радуга и конструктор"
+        },
+        {
+          "file": "assets/photos/kids-autumn-whiteboard.jpg",
+          "alt": "Осенние задания с детьми"
+        },
+        {
+          "file": "assets/photos/graduation-diplomas.jpg",
+          "alt": "Праздник и дипломы выпускников"
+        },
+        {
+          "file": "assets/photos/zanyatie-01.jpg",
+          "alt": "Дети на занятии"
+        },
+        {
+          "file": "assets/photos/kids-porch.jpg",
+          "alt": "Дети на веранде лагеря"
+        },
+        {
+          "file": "assets/photos/holiday-event.jpg",
+          "alt": "Праздник с детьми"
+        },
+        {
+          "file": "assets/photos/kids-play.jpg",
+          "alt": "Дружная атмосфера"
+        },
+        {
+          "post": 77,
+          "file": "assets/channel/post-77.jpg",
+          "alt": "Нескучный лагерь"
+        }
+      ],
+      "reviewFiles": [
+        {
+          "post": 66,
+          "file": "assets/channel/post-66.jpg"
+        },
+        {
+          "post": 74,
+          "file": "assets/channel/post-74.jpg"
+        }
+      ],
+      "videoItems": [
+        {
+          "post": 86,
+          "file": "assets/media/video-86.mp4",
+          "title": "Наше увлекательное лето · лагерь и занятия"
+        }
+      ]
+    }
+  },
+  "forms": {
+    "googleFormUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdFcivciNocJPUNmV6JgTJr3MwJUaqzUr5k4gkdvYgyHMwUNA/viewform",
+    "googleFormAction": "https://docs.google.com/forms/d/e/1FAIpQLSdFcivciNocJPUNmV6JgTJr3MwJUaqzUr5k4gkdvYgyHMwUNA/formResponse",
+    "submitMode": "google",
+    "googleEntryIds": {
+      "parent": "",
+      "contact": "",
+      "age": "",
+      "topic": "",
+      "format": ""
+    },
+    "notifyEmailHint": "elsukovdenis075@gmail.com или почта Ирины — указать в настройках формы Google"
+  }
+}
