@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="560" viewBox="0 0 480 560" role="img" aria-label="Фото педагога">
+  <rect width="480" height="560" fill="#e8f4f4"/>
+  <circle cx="240" cy="200" r="72" fill="#2d6a6a" opacity="0.25"/>
+  <text x="240" y="320" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" fill="#5c6b7a">photo-hero.jpg</text>
+</svg>
