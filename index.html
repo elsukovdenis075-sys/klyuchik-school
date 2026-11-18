@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <script>
+    (function () {
+      var p = location.pathname;
+      if (p.length > 1 && !p.endsWith("/") && !/\.[a-z0-9]+$/i.test(p)) {
+        location.replace(p + "/" + location.search + location.hash);
+     }
+    })();
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content" />
+  <meta name="theme-color" content="#fff8f3" />
+  <meta name="color-scheme" content="light" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="description" content="Ключик — школа Ирины Елсуковой. Подготовка к школе, чтение, почерк. Занятия и диагностика — 60 минут. 1 199 ₽, курс 4 — 3 999 ₽, 8 — 6 999 ₽. Онлайн и Н. Новгород." />
+  <meta name="keywords" content="подготовка к школе Нижний Новгород, репетитор 1 класс, дисграфия онлайн, чтение для детей, Ключик, Елсукова" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="ru_RU" />
+  <meta property="og:title" content="Подготовка к школе, чтение и почерк — школа «Ключик»" />
+  <meta property="og:description" content="Подготовка к школе, чтение, почерк. Занятия и диагностика — 60 минут. 1 199 ₽, курс 4 — 3 999 ₽, 8 — 6 999 ₽. Онлайн и очно в Н. Новгороде." />
+  <meta property="og:url" content="https://klyuchik-school.ru/" />
+  <meta property="og:image" content="https://klyuchik-school.ru/assets/photos/irina-portrait-orange.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="canonical" href="https://klyuchik-school.ru/" />
+  <title>Подготовка к школе, чтение и почерк — «Ключик», Н. Новгород</title>
+  <link rel="icon" href="assets/brand/favicon-64.png" type="image/png" />
+  <link rel="apple-touch-icon" href="assets/brand/apple-touch-icon.png" />
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+  <!-- Шрифты неблокирующие: страница открывается сразу, даже если Google Fonts режут -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Playfair+Display:wght@600;700&family=Nunito:wght@400;600;700;800&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Playfair+Display:wght@600;700&family=Nunito:wght@400;600;700;800&display=swap" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Playfair+Display:wght@600;700&family=Nunito:wght@400;600;700;800&display=swap" /></noscript>
+  <link rel="stylesheet" href="styles.css?v=site-20261116d" />
+  <script type="application/ld+json" id="schema-local-business">
+  {"@context":"https://schema.org","@type":"EducationalOrganization","name":"Ключик — онлайн-школа Ирины Елсуковой","description":"Подготовка к школе, чтение, почерк. Диагностика и занятия — 60 минут. 1 199 ₽, курс 4 — 3 999 ₽, 8 — 6 999 ₽. Онлайн и очно в Нижнем Новгороде.","areaServed":"Нижний Новгород","url":"https://klyuchik-school.ru/"}
+ </script>
+</head>
+<body class="theme-kids layout-main">
+  <div class="sky-deco" aria-hidden="true">
+    <span class="cloud cloud--1"></span>
+    <span class="cloud cloud--2"></span>
+    <span class="star star--1">★</span>
+    <span class="star star--2">★</span>
+    <span class="star star--3">✦</span>
+  </div>
+ <a class="skip-link" href="#main">К содержанию</a>
+
+  <header class="header">
+    <div class="wrap header__inner">
+      <a class="logo logo--brand logo--lockup" href="#" aria-label="Ключик — онлайн-школа">
+        <img class="logo__emblem" src="assets/brand/logo-emblem.png" width="221" height="240" alt="" />
+        <span class="logo__words">
+          <span class="logo__name">Ключик</span>
+          <span class="logo__sub">онлайн-школа</span>
+        </span>
+      </a>
+      <button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="visually-hidden">Меню</span>
+     </button>
+      <nav class="nav" id="site-nav" aria-label="Разделы">
+        <button type="button" class="nav-close" id="nav-close" aria-label="Закрыть меню">✕</button>
+        <a href="#for-parents">Знакомо?</a>
+        <a href="#teacher">Педагог</a>
+        <a href="#directions">Направления</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#pricing">Цены</a>
+        <a href="#signup">Запись</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+    </div>
+  </header>
+  <div class="nav-backdrop" id="nav-backdrop" hidden></div>
+
+  <main id="main">
+    <section class="hero" id="hero">
+      <div class="wrap hero__grid">
+        <div class="hero__text">
+          <div class="hero__badges" hidden></div>
+          <p class="eyebrow" id="hero-eyebrow">Онлайн по России · очно в Нижнем Новгороде</p>
+          <p class="hero__brand-line" aria-hidden="true">Школа «Ключик»</p>
+          <h1 id="hero-title">Подготовка к школе, чтение и почерк · 5–11 лет</h1>
+          <p class="hero__usp" id="hero-usp">Занятия ведёт основатель — Ирина Елсукова</p>
+          <p class="hero__tagline visually-hidden" id="hero-tagline" hidden>Подберём подход к вашему ребёнку</p>
+          <p class="hero__offer" id="hero-offer">Диагностика · 60 минут · <span class="price-lock">1&nbsp;199&nbsp;₽</span></p>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary btn--shine btn--hero-main" id="btn-hero-signup" href="#signup">Записаться на диагностику</a>
+            <a class="btn btn--ghost" id="btn-hero-irina" href="https://t.me/irina_elsukova_0" target="_blank" rel="noopener">Написать Ирине</a>
+          </div>
+          <p class="hero__socials hero__socials--channel visually-hidden" aria-hidden="true" hidden>
+            <a id="btn-telegram" href="https://t.me/klushikkk" target="_blank" rel="noopener">Telegram</a>
+            <a id="btn-max" href="#" target="_blank" rel="noopener" hidden>Max</a>
+          </p>
+          <p class="hero__city" id="hero-city" hidden></p>
+        </div>
+        <div class="hero__media">
+          <div class="hero__frame" id="hero-frame">
+            <img id="hero-photo" src="assets/photos/lesson-whiteboard.jpg" alt="Ирина Васильевна Елсукова на занятии" width="768" height="1024" decoding="async" onerror="this.onerror=null;this.src='assets/placeholder.svg';" />
+            <video
+              id="hero-video"
+              class="hero__video"
+              controls
+              playsinline
+              preload="none"
+              poster="assets/photos/lesson-whiteboard.jpg"
+              hidden
+            ></video>
+            <button type="button" class="media-play" id="hero-play" aria-label="Смотреть видео">
+              <span class="media-play__paw" aria-hidden="true">🐾</span>
+              <span class="media-play__tri" aria-hidden="true">▶</span>
+            </button>
+          </div>
+          <p class="hero__sticker hero__sticker--below">Основатель «Ключика»</p>
+          <p class="hero__video-hint" id="hero-video-hint">Нажмите лапку — откроется видео</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="pain pain--scene" id="for-parents">
+      <div class="wrap pain__wrap">
+        <p class="section-eyebrow">Знакомо?</p>
+        <h2 class="title-fun">С чем к нам приходят</h2>
+        <p class="section-lead pain__lead">Работаем спокойно, без давления.</p>
+        <div class="pain__mosaic">
+          <article class="bubble-card pain-card pain-card--1 reveal-on-scroll">
+            <span class="bubble-card__icon" aria-hidden="true">😰</span>
+            <h3>Боится школы</h3>
+            <p>Тревожится перед 1 классом и новыми заданиями.</p>
+          </article>
+         <article class="bubble-card pain-card pain-card--2 reveal-on-scroll">
+            <span class="bubble-card__icon" aria-hidden="true">😢</span>
+            <h3>Домашка даётся тяжело</h3>
+            <p>Чтение или письмо каждый вечер заканчиваются спором.</p>
+          </article>
+          <div class="pain__hub reveal-on-scroll">
+            <span class="pain__hub-icon" aria-hidden="true">🔑</span>
+            <p class="pain__hub-sub">Вы не одни</p>
+          </div>
+          <article class="bubble-card pain-card pain-card--3 reveal-on-scroll">
+           <span class="bubble-card__icon" aria-hidden="true">✏️</span>
+            <h3>Ошибки в тетради</h3>
+            <p>Учитель недоволен, ребёнок не хочет пробовать снова.</p>
+          </article>
+          <article class="bubble-card pain-card pain-card--4 reveal-on-scroll">
+            <span class="bubble-card__icon" aria-hidden="true">🌟</span>
+            <h3>Умный, но быстро устаёт</h3>
+            <p>Соображает быстро, но за столом устаёт и отвлекается.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about about--spokes about--early" id="school">
+      <div class="wrap">
+        <p class="section-eyebrow">О школе</p>
+        <h2 class="title-fun">Учим в игре и в темпе ребёнка</h2>
+        <div class="about__mosaic about__mosaic--three">
+          <div class="about__tile about__tile--intro">
+            <h3 class="about__tile-heading">С чем помогаем</h3>
+            <p>Подготовка к школе, чтение, почерк, поддержка 1–4 класса.</p>
+          </div>
+          <div class="about__tile about__format">
+            <h3 class="about__format-title">Формат</h3>
+            <div class="format-flow">
+              <p class="format-flow__main">Один педагог — один ребёнок</p>
+              <span class="format-flow__arrow" aria-hidden="true">↓</span>
+              <p class="format-flow__split">очно · Приокский район, Н.&nbsp;Новгород</p>
+            </div>
+          </div>
+          <div class="about__tile about__quals">
+            <h3 class="about__quals-title">Подход</h3>
+            <p class="about__principle">Сначала понять ребёнка — потом учить.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="teacher-block" id="teacher">
+      <div class="wrap">
+        <p class="section-eyebrow">О педагоге</p>
+        <h2 class="title-fun">Ирина Васильевна Елсукова</h2>
+        <div class="teacher-block__grid">
+          <figure class="teacher-block__photo">
+            <img src="assets/photos/irina-portrait-orange.jpg" alt="Ирина Васильевна Елсукова" width="768" height="1024" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='assets/placeholder.svg';" />
+            <figcaption class="teacher-block__badge">Все занятия ведёт сама</figcaption>
+          </figure>
+          <div class="teacher-block__text">
+            <h3 class="teacher-block__h">Кто она</h3>
+            <ul class="who-scheme" aria-label="Кто она">
+              <li><span class="who-scheme__icon" aria-hidden="true">🎓</span><strong>Учитель русского языка и литературы</strong><span>диплом НГПУ</span></li>
+              <li><span class="who-scheme__icon" aria-hidden="true">🧩</span><strong>Педагог доп. образования</strong><span>многолетний стаж с детьми</span></li>
+              <li><span class="who-scheme__icon" aria-hidden="true">🧒</span><strong>Дети 5–11 лет</strong><span>подготовка, чтение, почерк, 1–4 класс</span></li>
+            </ul>
+            <p class="teacher-block__cred-line">Благодарности Правительства НО и Минобраза · кубики Зайцева, нейропедагогика, кинезиомячи. <a href="#docs">Все документы ↓</a></p>
+          </div>
+        </div>
+
+        <h3 class="teacher-block__sub">Как работает</h3>
+        <ol class="teacher-principles">
+          <li><strong>Игра вместо зубрёжки</strong></li>
+          <li><strong>Память и моторика вместе с чтением</strong></li>
+          <li><strong>Обратная связь после каждого занятия</strong></li>
+        </ol>
+
+        <blockquote class="teacher-quote">
+          <p>«Не просто передаёт знания детям, но и сама постоянно учится».</p>
+          <footer>Мама ученика</footer>
+        </blockquote>
+
+        <h3 class="teacher-block__sub" id="methods">Методики в работе</h3>
+        <div class="methods__grid methods__grid--compact">
+          <article class="method-card">
+            <h4>Кубики Зайцева</h4>
+            <p>Чтение по складам, не по буквам.</p>
+          </article>
+          <article class="method-card">
+            <h4>Пятибратова и Булах</h4>
+            <p>Игра, слух, понимание вместо заучивания.</p>
+          </article>
+          <article class="method-card">
+            <h4>Нейропедагогика</h4>
+            <p>Темп и внимание ребёнка; мячи и мешочки.</p>
+          </article>
+        </div>
+
+        <h3 class="teacher-block__sub" id="docs">Дипломы и сертификаты</h3>
+        <p class="section-lead section-lead--tight">Нажмите на лепесток — документ откроется крупно.</p>
+        <div class="proof-daisies proof-daisies--inline"><div class="daisy-gallery daisy-gallery--docs" id="credentials-grid" aria-label="Дипломы и сертификаты"></div></div>
+      </div>
+    </section>
+
+    <section class="programs programs--path programs--top" id="directions">
+      <div class="wrap">
+        <p class="section-eyebrow">Направления</p>
+        <h2 class="title-fun">С чем поможем ребёнку</h2>
+        <p class="section-lead section-lead--tight">Четыре направления — под возраст и запрос.</p>
+        <div id="programs-grid"></div>
+     </div>
+    </section>
+
+    <section class="info-block" id="lesson">
+      <div class="wrap">
+        <p class="section-eyebrow">Формат</p>
+        <h2 class="title-fun">Как проходит занятие</h2>
+        <p class="section-lead section-lead--tight">60 минут. Домашнее задание короткое, с проверкой.</p>
+        <ol class="lesson-flow">
+          <li class="reveal-on-scroll"><strong>10 мин</strong> — контакт: ребёнок понимает, что его не ругают за ошибки.</li>
+          <li class="reveal-on-scroll"><strong>40 мин</strong> — игра, задания, движение — столько, сколько держит внимание.</li>
+          <li class="reveal-on-scroll"><strong>10 мин</strong> — вам: что получилось и что закрепить дома.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="info-block info-block--diag" id="diagnostic">
+      <div class="wrap">
+        <p class="section-eyebrow">Первая встреча</p>
+        <h2 class="title-fun">Что будет на диагностике</h2>
+        <p class="section-lead section-lead--tight">Не экзамен: знакомимся и смотрим уровень. Потом — понятный план.</p>
+        <ol class="lesson-flow lesson-flow--diag">
+          <li><strong>Контакт</strong> — спокойно включаемся, без оценки «на двойку».</li>
+          <li><strong>Задания по возрасту</strong> — чтение, письмо или подготовка к школе.</li>
+          <li><strong>Разговор с вами</strong> — что получается, где пробел, с чего начать.</li>
+        </ol>
+        <p class="reviews__hint"><span class="price-lock">1&nbsp;199&nbsp;₽</span> · 60 минут. Бумажный отчёт не готовим.</p>
+      </div>
+    </section>
+
+    <section class="proof-daisies" id="photos">
+      <div class="wrap">
+        <p class="section-eyebrow">Фото и видео</p>
+        <h2 class="title-fun">Занятия и праздники</h2>
+        <p class="section-lead section-lead--tight">Нажмите на фото — откроется крупно.</p>
+        <div class="daisy-gallery" id="photo-gallery" aria-label="Фото с занятий"></div>
+        <div class="photo-thumbs" id="photo-thumbs" hidden aria-hidden="true"></div>
+        <div class="video-block__grid" id="video-host"></div>
+      </div>
+    </section>
+
+    <section class="reviews reviews--wall" id="reviews">
+      <div class="wrap">
+        <p class="section-eyebrow">Отзывы</p>
+        <h2 class="title-fun">Что говорят родители</h2>
+        <p class="section-lead section-lead--tight" id="reviews-intro">Отзывы родителей. Полный текст — «Читать оригинал».</p>
+        <div class="reviews-showcase" id="reviews-showcase"></div>
+        <p class="reviews__hint reviews__footer">
+          <a href="https://t.me/klushikkk" id="reviews-channel-link" class="reviews__channel" target="_blank" rel="noopener">Все отзывы в канале →</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="info-block info-block--mint" id="results">
+      <div class="wrap">
+        <p class="section-eyebrow">Сроки</p>
+        <h2 class="title-fun">Чего ждать по срокам</h2>
+        <p class="section-lead section-lead--tight">Ориентиры при регулярных занятиях. Темп у всех разный.</p>
+        <div class="results-grid">
+          <article class="result-card reveal-on-scroll">
+            <span class="result-card__sticker" aria-hidden="true">1 мес</span>
+            <h3>Через месяц</h3>
+            <p>Меньше сопротивления занятиям. Вам понятнее, где пробелы.</p>
+          </article>
+          <article class="result-card reveal-on-scroll">
+            <span class="result-card__sticker" aria-hidden="true">3 мес</span>
+            <h3>Через три месяца</h3>
+            <p>Заметнее навык: чтение, письмо или готовность к школе — по плану.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing pricing--tickets" id="pricing">
+      <div class="wrap">
+        <p class="section-eyebrow">Цены</p>
+        <h2 class="title-fun">Стоимость занятий</h2>
+        <p class="section-lead section-lead--tight" id="pricing-lead">Пакеты на 4 и 8 занятий выгоднее разовых.</p>
+        <p class="promo-banner" id="promo-banner" hidden></p>
+        <div class="pricing__grid" id="pricing-grid"></div>
+        <div class="pricing__family-host" id="pricing-family"></div>
+        <div class="pricing__cta">
+          <a class="btn btn--primary btn--shine btn--lg" id="btn-pricing-signup" data-keep-label="1" href="#signup">Записаться на диагностику</a>
+          <p class="reviews__hint" id="pricing-note" hidden></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="signup" id="signup">
+      <div class="wrap signup__grid">
+        <div class="signup__box signup__box--offer">
+          <span class="signup__badge" id="signup-badge"><span class="price-lock">1&nbsp;199&nbsp;₽</span></span>
+          <p class="section-eyebrow section-eyebrow--center">Заявка</p>
+          <h2 class="title-fun">Запись на диагностику</h2>
+          <p id="signup-lead">Имя и телефон или Telegram.</p>
+          <form class="signup-form" id="signup-form" novalidate>
+            <label>
+              <span>Имя родителя</span>
+              <input type="text" name="parent" required autocomplete="name" placeholder="Как к вам обращаться" />
+            </label>
+            <label>
+              <span>Телефон или Telegram</span>
+              <input type="text" name="contact" required autocomplete="tel" placeholder="+7 … или @username" />
+            </label>
+            <label>
+              <span>Возраст ребёнка <small>(необязательно)</small></span>
+              <input type="text" name="age" placeholder="Например, 6 лет" />
+            </label>
+            <label>
+              <span>Запрос <small>(необязательно)</small></span>
+              <select name="topic">
+                <option value="">Выберите…</option>
+                <option>Подготовка к школе</option>
+                <option>Чтение</option>
+                <option>Почерк</option>
+                <option>Дисграфия</option>
+                <option>Репетитор 1–4 класс</option>
+                <option>Другое</option>
+              </select>
+            </label>
+            <label>
+              <span>Формат <small>(необязательно)</small></span>
+              <select name="format">
+                <option value="">Выберите…</option>
+                <option>Онлайн</option>
+                <option>Очно (Н. Новгород)</option>
+                <option>Пока не знаю</option>
+              </select>
+            </label>
+            <label class="signup-consent">
+              <input type="checkbox" name="consent" required />
+              <span>Согласен(-на) с <a href="oferta.html" target="_blank" rel="noopener">офертой</a>, <a href="privacy.html" target="_blank" rel="noopener">политикой персональных данных</a> и <a href="consent.html" target="_blank" rel="noopener">обработкой данных</a></span>
+            </label>
+            <button type="submit" class="btn btn--primary btn--lg" id="signup-submit-btn">Отправить заявку</button>
+            <p class="signup-form__success" id="signup-success" hidden role="status">
+              Заявка отправлена. Ирина свяжется с вами.
+            </p>
+            <p class="signup-form__note" id="form-note" hidden></p>
+          </form>
+          <iframe name="google-form-target" id="google-form-target" class="visually-hidden" title="Отправка заявки"></iframe>
+          <p class="signup__or">Или сразу:</p>
+          <div class="signup__actions">
+            <a class="btn btn--ghost btn--lg" id="btn-contact" href="https://t.me/irina_elsukova_0" target="_blank" rel="noopener">Telegram</a>
+            <a class="btn btn--ghost btn--lg" id="btn-phone" href="tel:+79030436763">+7 (903) 043-67-63</a>
+          </div>
+          <p class="signup__phone" id="signup-phone" hidden></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq" id="faq">
+      <div class="wrap faq__wrap">
+        <p class="section-eyebrow">Вопросы</p>
+        <h2 class="title-fun">Частые вопросы</h2>
+        <div class="faq__list" id="faq-list"></div>
+      </div>
+    </section>
+
+    <section class="info-block info-block--contacts" id="contacts">
+      <div class="wrap">
+        <p class="section-eyebrow">Контакты</p>
+        <h2 class="title-fun">Как с нами связаться</h2>
+        <p class="section-lead section-lead--tight">Написать или позвонить Ирине.</p>
+
+        <div class="contact-cartouche" aria-label="Контакты школы Ключик">
+          <div class="contact-cartouche__glow" aria-hidden="true"></div>
+          <div class="contact-cartouche__keyhole" aria-hidden="true">
+            <span class="contact-cartouche__key">🔑</span>
+          </div>
+          <p class="contact-cartouche__eyebrow">Связь с педагогом</p>
+          <div class="contact-cartouche__actions">
+            <a class="contact-pill contact-pill--tg" href="https://t.me/irina_elsukova_0" id="contacts-irina" target="_blank" rel="noopener">
+              <span class="contact-pill__ico" aria-hidden="true">✈️</span>
+              <span class="contact-pill__txt">
+                <strong>Написать Ирине</strong>
+                <small>личный Telegram</small>
+              </span>
+            </a>
+            <a class="contact-pill contact-pill--phone" href="tel:+79030436763" id="contacts-phone">
+              <span class="contact-pill__ico" aria-hidden="true">📞</span>
+              <span class="contact-pill__txt">
+                <strong>Позвонить</strong>
+                <small>+7 (903) 043-67-63</small>
+              </span>
+            </a>
+          </div>
+          <div class="contact-map" id="contacts-place">
+            <div class="contact-map__pin" aria-hidden="true">
+              <span class="contact-map__dot"></span>
+              <span class="contact-map__pulse"></span>
+            </div>
+            <div class="contact-map__roads" aria-hidden="true"></div>
+            <div class="contact-map__copy">
+              <p class="contact-map__city">Н. Новгород · Приокский</p>
+              <p class="contact-map__addr">ул. 40 лет Победы, 10</p>
+              <p class="contact-map__hint">Очно — по записи после диагностики</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+   <div class="daisy-lightbox" id="daisy-lightbox" hidden role="dialog" aria-modal="true" aria-labelledby="daisy-lightbox-caption">
+    <button type="button" class="daisy-lightbox__backdrop" id="daisy-lightbox-backdrop" aria-label="Закрыть"></button>
+    <div class="daisy-lightbox__panel">
+      <button type="button" class="daisy-lightbox__close" id="daisy-lightbox-close" aria-label="Закрыть">×</button>
+      <figure class="daisy-lightbox__figure">
+        <img id="daisy-lightbox-img" src="" alt="" decoding="async" />
+        <figcaption id="daisy-lightbox-caption"></figcaption>
+      </figure>
+      <a class="daisy-lightbox__tg btn btn--ghost" id="daisy-lightbox-tg" href="#" target="_blank" rel="noopener" hidden>Открыть пост в Telegram</a>
+    </div>
+  </div>
+
+  <aside class="sticky-cta sticky-cta--hidden layout-main-hidden" id="sticky-cta" aria-label="Быстрая запись" hidden>
+    <a class="sticky-cta__mini" id="sticky-tg" href="https://t.me/irina_elsukova_0" target="_blank" rel="noopener" aria-label="Написать Ирине в Telegram">Ирина</a>
+    <a class="btn btn--primary btn--sm sticky-cta__btn" id="sticky-signup" href="#signup">Диагностика</a>
+  </aside>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p>© <span id="year"></span> «Ключик» · <span id="footer-name">Ирина Васильевна Елсукова</span></p>
+      <p class="footer__legal" id="footer-legal" hidden></p>
+      <p class="footer__links">
+        <a href="oferta.html">Оферта</a>
+        · <a href="privacy.html">Политика персональных данных</a>
+        · <a href="consent.html">Согласие на обработку</a>
+      </p>
+      <p class="footer__socials">
+        <a id="footer-channel" href="https://t.me/klushikkk" target="_blank" rel="noopener">Канал в Telegram</a>
+        <span id="footer-max-sep" aria-hidden="true" hidden>·</span>
+        <a id="footer-max" href="https://max.ru/channel_klyuchik_nn" target="_blank" rel="noopener" hidden>Канал в Max</a>
+        <a id="footer-site" href="#" hidden>Сайт</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="site.js?v=site-20261118-perf" defer></script>
+</body>
+</html>

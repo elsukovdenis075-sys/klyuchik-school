@@ -1,0 +1,45 @@
+# klyuchik-school.ru → Vercel (после оплаты на REG.RU)
+
+Сайт уже на Vercel (проект klyuchik-school). Осталось направить домен.
+
+## Вариант 1 — проще (рекомендуем)
+
+REG.RU → домен **klyuchik-school.ru** → **DNS-серверы** / делегирование:
+
+Заменить на:
+
+- ns1.vercel-dns.com
+- ns2.vercel-dns.com
+
+Сохранить. Подождать 15 мин–24 ч. HTTPS включится в Vercel сам.
+
+То же для **klyuchik-school.online**, если нужен и он.
+
+---
+
+## Вариант 2 — оставить DNS на REG.RU
+
+Записи (рекомендация Vercel на 14.11.2026):
+
+| Тип   | Имя / хост | Значение |
+|-------|------------|----------|
+| **A** | `@`        | `216.198.79.1` |
+| **A** | `@`        | `64.29.17.1`   |
+| **CNAME** | `www`  | `569c1d89f10d8680.vercel-dns-017.com` |
+
+Удалить старые A/CNAME, которые ведут на парковку REG.
+
+Проверка с Mac (когда обновится DNS):
+
+```bash
+curl -sI https://klyuchik-school.ru/ | head -3
+```
+
+---
+
+## После того как откроется
+
+- Основной адрес: **https://klyuchik-school.ru**
+- Старый **klyuchik-school.vercel.app** тоже будет работать (можно редирект настроить в Vercel → Domains).
+
+В каналах и рекламе ставьте **klyuchik-school.ru**, не vercel.app.
