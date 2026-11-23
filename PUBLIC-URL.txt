@@ -1,0 +1,5 @@
+Постоянная ссылка (GitHub Pages):
+  https://klyuchik-school.ru/
+  (резерв: https://elsukovdenis075-sys.github.io/klyuchik-school/)
+
+Репозиторий: https://github.com/elsukovdenis075-sys/klyuchik-school

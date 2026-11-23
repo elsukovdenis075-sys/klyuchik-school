@@ -1,0 +1,5 @@
+# УСТАРЕЛО. Не использовать.
+
+Домен klyuchik-school.ru больше не смотрит на Vercel.
+Актуальная схема: REG-RU-DNS-GITHUB.txt
+Сайт: https://klyuchik-school.ru/

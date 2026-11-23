@@ -1,0 +1,10 @@
+qa-screenshots/node_modules
+qa-screenshots/package-lock.json
+**/node_modules
+max-pack
+telegram-pack
+docs
+google-doc
+content
+NETLIFY-перетащи-эту-папку
+qa-screenshots/*.png

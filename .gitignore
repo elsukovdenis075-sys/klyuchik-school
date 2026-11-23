@@ -1,0 +1,5 @@
+.server.pid
+.server.port
+.server.log
+.vercel
+.env*

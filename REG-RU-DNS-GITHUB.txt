@@ -1,0 +1,13 @@
+# klyuchik-school.ru → GitHub Pages (актуально 14.11.2026 вечер)
+
+Сайт: https://klyuchik-school.ru/
+HTTPS: включён (сертификат approved до 2027-02-12)
+www → редирект на https://klyuchik-school.ru/
+
+DNS (зона на Vercel NS):
+- A @ → 185.199.108.153 / 109.153 / 110.153 / 111.153
+- AAAA @ → 2606:50c0:8000::153 … :8003::153
+- CNAME www → elsukovdenis075-sys.github.io
+
+Если локально «не открывается» / 404 Vercel — выключить iProxy/VPN и обновить DNS-кэш.
+.online пока отдельно (NS на REG) — главный адрес .ru.
